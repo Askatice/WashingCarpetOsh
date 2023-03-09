@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">WashingCarpetOsh</string>
+    <string name="app_name">Мойка\nКовровKg</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_text">Регистрация</string>
+    <string name="surname">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Должность">
+        <item>Доставщик</item>
+        <item>Оператор</item>
+        <item>Мойщик</item>
+        <item>Сушка</item>
+        <item>Упаковщик</item>
+        <item>Директор</item>
+
+    </string-array>
+    <string-array name="Status">
+        <item>Новый</item>
+        <item>Доставщик увидел</item>
+        <item>Доставщик едет</item>
+        <item>Доставщик принес</item>
+        <item>В мойке</item>
+        <item>В сушке</item>
+        <item>Упакуется</item>
+        <item>Доставляется</item>
+        <item>Завершено</item>
+
+    </string-array>
 </resources>

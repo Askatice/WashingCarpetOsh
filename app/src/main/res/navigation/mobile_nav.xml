@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_nav"
+    app:startDestination="@id/registerFragment">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.washingcarpetosh.ui.fragment.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.washingcarpetosh.ui.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/registerNameFragment"
+        android:name="com.example.washingcarpetosh.ui.fragment.RegisterNameFragment"
+        android:label="fragment_register_name"
+        tools:layout="@layout/fragment_register_name" />
+    <fragment
+        android:id="@+id/addNewOrderFragment"
+        android:name="com.example.washingcarpetosh.ui.fragment.AddNewOrderFragment"
+        android:label="fragment_add_new_order"
+        tools:layout="@layout/fragment_add_new_order" />
+</navigation>
